@@ -1,0 +1,128 @@
+body{
+    margin:0;
+    padding:0;
+    
+}
+.container{
+    text-align: center;
+    margin-top:360;
+
+}
+.btn{
+    border: 1px solid black;
+    background: none;
+    padding:10px 20px;
+    font-size: 20px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 100px;
+    transition: 0.8s;
+    position:relative;
+    overflow: hidden;
+
+}
+.btn1{
+    color: black;
+}
+.btn2{
+    color: black;
+}
+.btn1:hover,.btn2:hover
+{
+    color:red;
+}
+.btn::before
+{
+    content:"";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: greenyellow;
+    z-index: -1;
+    transition: 0.8s;
+}
+.btn1:before,.btn2:before
+{
+    top:0;
+    border-radius: 0 0 50% 50%;
+    color: rgb(20, 163, 220);
+}
+#generate
+{
+    border: 1px solid black;
+    background: none;
+    padding:10px 20px;
+    font-size: 20px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 100px;
+    transition: 0.8s;
+    position:relative;
+    overflow: hidden;
+
+}
+#generate{
+    color: black;
+}
+
+#generate:hover
+{
+    color:red;
+}
+#generate::before
+{
+    content:"";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: greenyellow;
+    z-index: -1;
+    transition: 0.8s;
+}
+#generate:before
+{
+    top:0;
+    border-radius: 0 0 50% 50%;
+    color: rgb(20, 163, 220);
+}
+#generator
+{
+    border: 1px solid black;
+    background: none;
+    padding:10px 20px;
+    font-size: 20px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 100px;
+    transition: 0.8s;
+    position:relative;
+    overflow: hidden;
+
+}
+#generator{
+    color: black;
+}
+
+#generator:hover
+{
+    color:red;
+}
+#generator::before
+{
+    content:"";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: greenyellow;
+    z-index: -1;
+    transition: 0.8s;
+}
+#generator:before
+{
+    top:0;
+    border-radius: 0 0 50% 50%;
+    color: rgb(20, 163, 220);
+}
